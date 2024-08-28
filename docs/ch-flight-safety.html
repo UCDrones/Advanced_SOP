@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 7 Flight Safety Guidelines | Standard Operating Procedures for Advanced UAS Operations</title>
   <meta name="description" content="Chapter 7 Flight Safety Guidelines | Standard Operating Procedures for Advanced UAS Operations - by the UC Center of Excellence on UAS Safety" />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.40 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 7 Flight Safety Guidelines | Standard Operating Procedures for Advanced UAS Operations" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Chapter 7 Flight Safety Guidelines | Standard Operating Procedures for Advanced UAS Operations - by the UC Center of Excellence on UAS Safety" />
   
@@ -32,7 +31,8 @@
   
 <link rel="prev" href="ch-flight-planning.html"/>
 <link rel="next" href="ch-crm.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -48,8 +48,9 @@
 
 
 
-
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171022398-1"></script>
 <script>
@@ -61,6 +62,11 @@
 </script>
 
 
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -81,40 +87,51 @@
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Drone Guide Portal</a></li>
 <li class="chapter" data-level="2" data-path="ch-scope.html"><a href="ch-scope.html"><i class="fa fa-check"></i><b>2</b> Scope</a></li>
-<li class="chapter" data-level="3" data-path="ch-roles-responsibilities.html"><a href="ch-roles-responsibilities.html"><i class="fa fa-check"></i><b>3</b> Roles and Responsibilities</a><ul>
-<li class="chapter" data-level="3.1" data-path="ch-roles-responsibilities.html"><a href="ch-roles-responsibilities.html#systemwide-designated-uas-authority"><i class="fa fa-check"></i><b>3.1</b> Systemwide Designated UAS Authority</a><ul>
+<li class="chapter" data-level="3" data-path="ch-roles-responsibilities.html"><a href="ch-roles-responsibilities.html"><i class="fa fa-check"></i><b>3</b> Roles and Responsibilities</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="ch-roles-responsibilities.html"><a href="ch-roles-responsibilities.html#systemwide-designated-uas-authority"><i class="fa fa-check"></i><b>3.1</b> Systemwide Designated UAS Authority</a>
+<ul>
 <li class="chapter" data-level="3.1.1" data-path="ch-roles-responsibilities.html"><a href="ch-roles-responsibilities.html#duties-and-responsibilities"><i class="fa fa-check"></i><b>3.1.1</b> Duties and Responsibilities</a></li>
 </ul></li>
-<li class="chapter" data-level="3.2" data-path="ch-roles-responsibilities.html"><a href="ch-roles-responsibilities.html#designated-local-authority"><i class="fa fa-check"></i><b>3.2</b> Designated Local Authority</a><ul>
+<li class="chapter" data-level="3.2" data-path="ch-roles-responsibilities.html"><a href="ch-roles-responsibilities.html#designated-local-authority"><i class="fa fa-check"></i><b>3.2</b> Designated Local Authority</a>
+<ul>
 <li class="chapter" data-level="3.2.1" data-path="ch-roles-responsibilities.html"><a href="ch-roles-responsibilities.html#duties-and-responsibilities-1"><i class="fa fa-check"></i><b>3.2.1</b> Duties and Responsibilities</a></li>
 </ul></li>
-<li class="chapter" data-level="3.3" data-path="ch-roles-responsibilities.html"><a href="ch-roles-responsibilities.html#remote-pilot-in-command"><i class="fa fa-check"></i><b>3.3</b> Remote Pilot in Command</a><ul>
+<li class="chapter" data-level="3.3" data-path="ch-roles-responsibilities.html"><a href="ch-roles-responsibilities.html#remote-pilot-in-command"><i class="fa fa-check"></i><b>3.3</b> Remote Pilot in Command</a>
+<ul>
 <li class="chapter" data-level="3.3.1" data-path="ch-roles-responsibilities.html"><a href="ch-roles-responsibilities.html#duties-and-responsibilities-2"><i class="fa fa-check"></i><b>3.3.1</b> Duties and Responsibilities</a></li>
 <li class="chapter" data-level="3.3.2" data-path="ch-roles-responsibilities.html"><a href="ch-roles-responsibilities.html#qualifications"><i class="fa fa-check"></i><b>3.3.2</b> Qualifications</a></li>
 </ul></li>
-<li class="chapter" data-level="3.4" data-path="ch-roles-responsibilities.html"><a href="ch-roles-responsibilities.html#visual-observer"><i class="fa fa-check"></i><b>3.4</b> Visual Observer</a><ul>
+<li class="chapter" data-level="3.4" data-path="ch-roles-responsibilities.html"><a href="ch-roles-responsibilities.html#visual-observer"><i class="fa fa-check"></i><b>3.4</b> Visual Observer</a>
+<ul>
 <li class="chapter" data-level="3.4.1" data-path="ch-roles-responsibilities.html"><a href="ch-roles-responsibilities.html#duties-and-responsibilities-3"><i class="fa fa-check"></i><b>3.4.1</b> Duties and Responsibilities</a></li>
 <li class="chapter" data-level="3.4.2" data-path="ch-roles-responsibilities.html"><a href="ch-roles-responsibilities.html#qualifications-1"><i class="fa fa-check"></i><b>3.4.2</b> Qualifications</a></li>
 </ul></li>
-<li class="chapter" data-level="3.5" data-path="ch-roles-responsibilities.html"><a href="ch-roles-responsibilities.html#ground-support-personnel"><i class="fa fa-check"></i><b>3.5</b> Ground Support Personnel</a><ul>
+<li class="chapter" data-level="3.5" data-path="ch-roles-responsibilities.html"><a href="ch-roles-responsibilities.html#ground-support-personnel"><i class="fa fa-check"></i><b>3.5</b> Ground Support Personnel</a>
+<ul>
 <li class="chapter" data-level="3.5.1" data-path="ch-roles-responsibilities.html"><a href="ch-roles-responsibilities.html#duties-and-responsibilities-4"><i class="fa fa-check"></i><b>3.5.1</b> Duties and Responsibilities</a></li>
 </ul></li>
 <li class="chapter" data-level="3.6" data-path="ch-roles-responsibilities.html"><a href="ch-roles-responsibilities.html#point-of-contact-or-operation-manager"><i class="fa fa-check"></i><b>3.6</b> Point of Contact or Operation Manager</a></li>
 <li class="chapter" data-level="3.7" data-path="ch-roles-responsibilities.html"><a href="ch-roles-responsibilities.html#payload-operator-optional"><i class="fa fa-check"></i><b>3.7</b> Payload Operator (optional)</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="ch-UAS.html"><a href="ch-UAS.html"><i class="fa fa-check"></i><b>4</b> Unmanned Aircraft Systems</a><ul>
-<li class="chapter" data-level="4.1" data-path="ch-UAS.html"><a href="ch-UAS.html#registration-of-uas"><i class="fa fa-check"></i><b>4.1</b> Registration of UAS</a><ul>
+<li class="chapter" data-level="4" data-path="ch-UAS.html"><a href="ch-UAS.html"><i class="fa fa-check"></i><b>4</b> Unmanned Aircraft Systems</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="ch-UAS.html"><a href="ch-UAS.html#registration-of-uas"><i class="fa fa-check"></i><b>4.1</b> Registration of UAS</a>
+<ul>
 <li class="chapter" data-level="4.1.1" data-path="ch-UAS.html"><a href="ch-UAS.html#registration-of-uc-owned-uas"><i class="fa fa-check"></i><b>4.1.1</b> Registration of UC-owned UAS</a></li>
 </ul></li>
 <li class="chapter" data-level="4.2" data-path="ch-UAS.html"><a href="ch-UAS.html#record-keeping-policy-requirements"><i class="fa fa-check"></i><b>4.2</b> Record Keeping Policy Requirements</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="ch-mission-binder.html"><a href="ch-mission-binder.html"><i class="fa fa-check"></i><b>5</b> UAS Mission Binder</a></li>
-<li class="chapter" data-level="6" data-path="ch-flight-planning.html"><a href="ch-flight-planning.html"><i class="fa fa-check"></i><b>6</b> Flight Planning Procedures</a><ul>
+<li class="chapter" data-level="6" data-path="ch-flight-planning.html"><a href="ch-flight-planning.html"><i class="fa fa-check"></i><b>6</b> Flight Planning Procedures</a>
+<ul>
 <li class="chapter" data-level="6.1" data-path="ch-flight-planning.html"><a href="ch-flight-planning.html#general"><i class="fa fa-check"></i><b>6.1</b> General</a></li>
 <li class="chapter" data-level="6.2" data-path="ch-flight-planning.html"><a href="ch-flight-planning.html#flight-request"><i class="fa fa-check"></i><b>6.2</b> Flight Request</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="ch-flight-safety.html"><a href="ch-flight-safety.html"><i class="fa fa-check"></i><b>7</b> Flight Safety Guidelines</a><ul>
-<li class="chapter" data-level="7.1" data-path="ch-flight-safety.html"><a href="ch-flight-safety.html#site-assessment"><i class="fa fa-check"></i><b>7.1</b> Site Assessment</a><ul>
+<li class="chapter" data-level="7" data-path="ch-flight-safety.html"><a href="ch-flight-safety.html"><i class="fa fa-check"></i><b>7</b> Flight Safety Guidelines</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="ch-flight-safety.html"><a href="ch-flight-safety.html#site-assessment"><i class="fa fa-check"></i><b>7.1</b> Site Assessment</a>
+<ul>
 <li class="chapter" data-level="7.1.1" data-path="ch-flight-safety.html"><a href="ch-flight-safety.html#planned-safety"><i class="fa fa-check"></i><b>7.1.1</b> Planned Safety</a></li>
 <li class="chapter" data-level="7.1.2" data-path="ch-flight-safety.html"><a href="ch-flight-safety.html#on-site-threats"><i class="fa fa-check"></i><b>7.1.2</b> On-site Threats</a></li>
 <li class="chapter" data-level="7.1.3" data-path="ch-flight-safety.html"><a href="ch-flight-safety.html#weather"><i class="fa fa-check"></i><b>7.1.3</b> Weather</a></li>
@@ -122,15 +139,18 @@
 </ul></li>
 <li class="chapter" data-level="7.2" data-path="ch-flight-safety.html"><a href="ch-flight-safety.html#safety-guidelines"><i class="fa fa-check"></i><b>7.2</b> Safety Guidelines</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="ch-crm.html"><a href="ch-crm.html"><i class="fa fa-check"></i><b>8</b> Crew Coordination Standards</a><ul>
+<li class="chapter" data-level="8" data-path="ch-crm.html"><a href="ch-crm.html"><i class="fa fa-check"></i><b>8</b> Crew Coordination Standards</a>
+<ul>
 <li class="chapter" data-level="8.1" data-path="ch-crm.html"><a href="ch-crm.html#crew-participant-minimum"><i class="fa fa-check"></i><b>8.1</b> Crew Participant Minimum</a></li>
 <li class="chapter" data-level="8.2" data-path="ch-crm.html"><a href="ch-crm.html#pfb"><i class="fa fa-check"></i><b>8.2</b> Pre-Flight Briefing</a></li>
 <li class="chapter" data-level="8.3" data-path="ch-crm.html"><a href="ch-crm.html#flight-team-member-positioning"><i class="fa fa-check"></i><b>8.3</b> Flight Team Member Positioning</a></li>
 <li class="chapter" data-level="8.4" data-path="ch-crm.html"><a href="ch-crm.html#sterile-cockpit-requirement"><i class="fa fa-check"></i><b>8.4</b> Sterile Cockpit Requirement</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="normal-flight-operations.html"><a href="normal-flight-operations.html"><i class="fa fa-check"></i><b>9</b> Normal Flight Operations</a><ul>
+<li class="chapter" data-level="9" data-path="normal-flight-operations.html"><a href="normal-flight-operations.html"><i class="fa fa-check"></i><b>9</b> Normal Flight Operations</a>
+<ul>
 <li class="chapter" data-level="9.1" data-path="normal-flight-operations.html"><a href="normal-flight-operations.html#operational-requirements"><i class="fa fa-check"></i><b>9.1</b> Operational Requirements</a></li>
-<li class="chapter" data-level="9.2" data-path="normal-flight-operations.html"><a href="normal-flight-operations.html#pre-flight-procedures"><i class="fa fa-check"></i><b>9.2</b> Pre-Flight Procedures</a><ul>
+<li class="chapter" data-level="9.2" data-path="normal-flight-operations.html"><a href="normal-flight-operations.html#pre-flight-procedures"><i class="fa fa-check"></i><b>9.2</b> Pre-Flight Procedures</a>
+<ul>
 <li class="chapter" data-level="9.2.1" data-path="normal-flight-operations.html"><a href="normal-flight-operations.html#pre-flight-checklist-requirements"><i class="fa fa-check"></i><b>9.2.1</b> Pre-Flight Checklist Requirements</a></li>
 </ul></li>
 <li class="chapter" data-level="9.3" data-path="normal-flight-operations.html"><a href="normal-flight-operations.html#flight-operations"><i class="fa fa-check"></i><b>9.3</b> Flight Operations</a></li>
@@ -138,42 +158,46 @@
 <li class="chapter" data-level="9.5" data-path="normal-flight-operations.html"><a href="normal-flight-operations.html#recovery"><i class="fa fa-check"></i><b>9.5</b> Recovery</a></li>
 <li class="chapter" data-level="9.6" data-path="normal-flight-operations.html"><a href="normal-flight-operations.html#shutdownpost-flight"><i class="fa fa-check"></i><b>9.6</b> Shutdown/Post-Flight</a></li>
 </ul></li>
-<li class="chapter" data-level="10" data-path="emergency-operations.html"><a href="emergency-operations.html"><i class="fa fa-check"></i><b>10</b> Emergency Operations</a><ul>
+<li class="chapter" data-level="10" data-path="emergency-operations.html"><a href="emergency-operations.html"><i class="fa fa-check"></i><b>10</b> Emergency Operations</a>
+<ul>
 <li class="chapter" data-level="10.1" data-path="emergency-operations.html"><a href="emergency-operations.html#general-emergency-planning"><i class="fa fa-check"></i><b>10.1</b> General Emergency Planning</a></li>
 <li class="chapter" data-level="10.2" data-path="emergency-operations.html"><a href="emergency-operations.html#general-emergency-procedures"><i class="fa fa-check"></i><b>10.2</b> General Emergency Procedures</a></li>
 </ul></li>
-<li class="chapter" data-level="11" data-path="accident-response.html"><a href="accident-response.html"><i class="fa fa-check"></i><b>11</b> Accident Response</a><ul>
+<li class="chapter" data-level="11" data-path="accident-response.html"><a href="accident-response.html"><i class="fa fa-check"></i><b>11</b> Accident Response</a>
+<ul>
 <li class="chapter" data-level="11.1" data-path="accident-response.html"><a href="accident-response.html#emergency-contact-information"><i class="fa fa-check"></i><b>11.1</b> Emergency Contact Information</a></li>
 <li class="chapter" data-level="11.2" data-path="accident-response.html"><a href="accident-response.html#document-an-accident"><i class="fa fa-check"></i><b>11.2</b> Document an accident</a></li>
 </ul></li>
-<li class="chapter" data-level="12" data-path="fire-safety.html"><a href="fire-safety.html"><i class="fa fa-check"></i><b>12</b> Fire Safety</a><ul>
+<li class="chapter" data-level="12" data-path="fire-safety.html"><a href="fire-safety.html"><i class="fa fa-check"></i><b>12</b> Fire Safety</a>
+<ul>
 <li class="chapter" data-level="12.1" data-path="fire-safety.html"><a href="fire-safety.html#lipo-battery-guidance"><i class="fa fa-check"></i><b>12.1</b> LiPo Battery Guidance</a></li>
 <li class="chapter" data-level="12.2" data-path="fire-safety.html"><a href="fire-safety.html#planning-for-fire-mitigation"><i class="fa fa-check"></i><b>12.2</b> Planning for Fire Mitigation</a></li>
 </ul></li>
-<li class="chapter" data-level="13" data-path="ch-part29waiver.html"><a href="ch-part29waiver.html"><i class="fa fa-check"></i><b>13</b> Waiver for Operations at Night</a><ul>
-<li class="chapter" data-level="13.1" data-path="ch-part29waiver.html"><a href="ch-part29waiver.html#s29-gen"><i class="fa fa-check"></i><b>13.1</b> General</a></li>
-<li class="chapter" data-level="13.2" data-path="ch-part29waiver.html"><a href="ch-part29waiver.html#s29-ar"><i class="fa fa-check"></i><b>13.2</b> Aircraft Restrictions</a></li>
-<li class="chapter" data-level="13.3" data-path="ch-part29waiver.html"><a href="ch-part29waiver.html#s29-rr"><i class="fa fa-check"></i><b>13.3</b> Addendum to Roles and Responsibilities</a></li>
-<li class="chapter" data-level="13.4" data-path="ch-part29waiver.html"><a href="ch-part29waiver.html#s29-fp"><i class="fa fa-check"></i><b>13.4</b> Addendum to Flight Planning</a></li>
-<li class="chapter" data-level="13.5" data-path="ch-part29waiver.html"><a href="ch-part29waiver.html#s29-wp"><i class="fa fa-check"></i><b>13.5</b> Additional Waiver Provisions</a></li>
-<li class="chapter" data-level="13.6" data-path="ch-part29waiver.html"><a href="ch-part29waiver.html#s29-tr"><i class="fa fa-check"></i><b>13.6</b> Supplementary Training Requirement</a></li>
-<li class="chapter" data-level="13.7" data-path="ch-part29waiver.html"><a href="ch-part29waiver.html#s29-wa"><i class="fa fa-check"></i><b>13.7</b> Waiver Application</a></li>
+<li class="chapter" data-level="13" data-path="ch-part39-vantage.html"><a href="ch-part39-vantage.html"><i class="fa fa-check"></i><b>13</b> Waiver for Operations over People - Vantage Robotics SNAP</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="ch-part39-vantage.html"><a href="ch-part39-vantage.html#s39v-gen"><i class="fa fa-check"></i><b>13.1</b> General</a></li>
+<li class="chapter" data-level="13.2" data-path="ch-part39-vantage.html"><a href="ch-part39-vantage.html#s39v-ar"><i class="fa fa-check"></i><b>13.2</b> Aircraft Restrictions</a></li>
+<li class="chapter" data-level="13.3" data-path="ch-part39-vantage.html"><a href="ch-part39-vantage.html#s39v-rr"><i class="fa fa-check"></i><b>13.3</b> Addendum to Roles and Responsibilities</a></li>
+<li class="chapter" data-level="13.4" data-path="ch-part39-vantage.html"><a href="ch-part39-vantage.html#s39v-fp"><i class="fa fa-check"></i><b>13.4</b> Addendum to Flight Planning</a></li>
+<li class="chapter" data-level="13.5" data-path="ch-part39-vantage.html"><a href="ch-part39-vantage.html#s39v-rk"><i class="fa fa-check"></i><b>13.5</b> Record Keeping Requirements</a></li>
+<li class="chapter" data-level="13.6" data-path="ch-part39-vantage.html"><a href="ch-part39-vantage.html#s39v-tr"><i class="fa fa-check"></i><b>13.6</b> Supplementary Training Requirement</a></li>
 </ul></li>
-<li class="chapter" data-level="14" data-path="ch-part39-vantage.html"><a href="ch-part39-vantage.html"><i class="fa fa-check"></i><b>14</b> Waiver for Operations over People - Vantage Robotics SNAP</a><ul>
-<li class="chapter" data-level="14.1" data-path="ch-part39-vantage.html"><a href="ch-part39-vantage.html#s39v-gen"><i class="fa fa-check"></i><b>14.1</b> General</a></li>
-<li class="chapter" data-level="14.2" data-path="ch-part39-vantage.html"><a href="ch-part39-vantage.html#s39v-ar"><i class="fa fa-check"></i><b>14.2</b> Aircraft Restrictions</a></li>
-<li class="chapter" data-level="14.3" data-path="ch-part39-vantage.html"><a href="ch-part39-vantage.html#s39v-rr"><i class="fa fa-check"></i><b>14.3</b> Addendum to Roles and Responsibilities</a></li>
-<li class="chapter" data-level="14.4" data-path="ch-part39-vantage.html"><a href="ch-part39-vantage.html#s39v-fp"><i class="fa fa-check"></i><b>14.4</b> Addendum to Flight Planning</a></li>
-<li class="chapter" data-level="14.5" data-path="ch-part39-vantage.html"><a href="ch-part39-vantage.html#s39v-rk"><i class="fa fa-check"></i><b>14.5</b> Record Keeping Requirements</a></li>
-<li class="chapter" data-level="14.6" data-path="ch-part39-vantage.html"><a href="ch-part39-vantage.html#s39v-tr"><i class="fa fa-check"></i><b>14.6</b> Supplementary Training Requirement</a></li>
+<li class="chapter" data-level="14" data-path="ch-part39-parazero.html"><a href="ch-part39-parazero.html"><i class="fa fa-check"></i><b>14</b> Waiver for Operations over People - ParaZero</a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="ch-part39-parazero.html"><a href="ch-part39-parazero.html#s39p-gen"><i class="fa fa-check"></i><b>14.1</b> General</a></li>
+<li class="chapter" data-level="14.2" data-path="ch-part39-parazero.html"><a href="ch-part39-parazero.html#s39p-ar"><i class="fa fa-check"></i><b>14.2</b> Aircraft Restrictions</a></li>
+<li class="chapter" data-level="14.3" data-path="ch-part39-parazero.html"><a href="ch-part39-parazero.html#s39p-rr"><i class="fa fa-check"></i><b>14.3</b> Addendum to Roles and Responsibilities</a></li>
+<li class="chapter" data-level="14.4" data-path="ch-part39-parazero.html"><a href="ch-part39-parazero.html#s39p-fp"><i class="fa fa-check"></i><b>14.4</b> Addendum to Flight Planning</a></li>
+<li class="chapter" data-level="14.5" data-path="ch-part39-parazero.html"><a href="ch-part39-parazero.html#s39p-rk"><i class="fa fa-check"></i><b>14.5</b> Record Keeping Requirements</a></li>
+<li class="chapter" data-level="14.6" data-path="ch-part39-parazero.html"><a href="ch-part39-parazero.html#s39p-tr"><i class="fa fa-check"></i><b>14.6</b> Supplementary Training Requirement</a></li>
 </ul></li>
-<li class="chapter" data-level="15" data-path="ch-part39-parazero.html"><a href="ch-part39-parazero.html"><i class="fa fa-check"></i><b>15</b> Waiver for Operations over People - ParaZero</a><ul>
-<li class="chapter" data-level="15.1" data-path="ch-part39-parazero.html"><a href="ch-part39-parazero.html#s39p-gen"><i class="fa fa-check"></i><b>15.1</b> General</a></li>
-<li class="chapter" data-level="15.2" data-path="ch-part39-parazero.html"><a href="ch-part39-parazero.html#s39p-ar"><i class="fa fa-check"></i><b>15.2</b> Aircraft Restrictions</a></li>
-<li class="chapter" data-level="15.3" data-path="ch-part39-parazero.html"><a href="ch-part39-parazero.html#s39p-rr"><i class="fa fa-check"></i><b>15.3</b> Addendum to Roles and Responsibilities</a></li>
-<li class="chapter" data-level="15.4" data-path="ch-part39-parazero.html"><a href="ch-part39-parazero.html#s39p-fp"><i class="fa fa-check"></i><b>15.4</b> Addendum to Flight Planning</a></li>
-<li class="chapter" data-level="15.5" data-path="ch-part39-parazero.html"><a href="ch-part39-parazero.html#s39p-rk"><i class="fa fa-check"></i><b>15.5</b> Record Keeping Requirements</a></li>
-<li class="chapter" data-level="15.6" data-path="ch-part39-parazero.html"><a href="ch-part39-parazero.html#s39p-tr"><i class="fa fa-check"></i><b>15.6</b> Supplementary Training Requirement</a></li>
+<li class="chapter" data-level="15" data-path="ch-part39-U88.html"><a href="ch-part39-U88.html"><i class="fa fa-check"></i><b>15</b> Waiver for Operations over People and Moving Vehicles - under 0.88 lbs</a>
+<ul>
+<li class="chapter" data-level="15.1" data-path="ch-part39-U88.html"><a href="ch-part39-U88.html#s39u88-gen"><i class="fa fa-check"></i><b>15.1</b> General</a></li>
+<li class="chapter" data-level="15.2" data-path="ch-part39-U88.html"><a href="ch-part39-U88.html#s39u88-ar"><i class="fa fa-check"></i><b>15.2</b> Aircraft Restrictions</a></li>
+<li class="chapter" data-level="15.3" data-path="ch-part39-U88.html"><a href="ch-part39-U88.html#s39u88-rr"><i class="fa fa-check"></i><b>15.3</b> Addendum to Roles and Responsibilities</a></li>
+<li class="chapter" data-level="15.4" data-path="ch-part39-U88.html"><a href="ch-part39-U88.html#s39u88-fp"><i class="fa fa-check"></i><b>15.4</b> Addendum to Flight Planning</a></li>
+<li class="chapter" data-level="15.5" data-path="ch-part39-U88.html"><a href="ch-part39-U88.html#s39u88-rk"><i class="fa fa-check"></i><b>15.5</b> Record Keeping Requirements</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://ucdrones.github.io/ch-resources.html" target="blank">Resources and Templates</a></li>
@@ -196,15 +220,15 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="ch-flight-safety" class="section level1">
-<h1><span class="header-section-number">Chapter 7</span> Flight Safety Guidelines</h1>
+<div id="ch-flight-safety" class="section level1 hasAnchor" number="7">
+<h1><span class="header-section-number">Chapter 7</span> Flight Safety Guidelines<a href="ch-flight-safety.html#ch-flight-safety" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>All UAS activity must develop a comprehensive flight safety plan.</p>
-<div id="site-assessment" class="section level2">
-<h2><span class="header-section-number">7.1</span> Site Assessment</h2>
+<div id="site-assessment" class="section level2 hasAnchor" number="7.1">
+<h2><span class="header-section-number">7.1</span> Site Assessment<a href="ch-flight-safety.html#site-assessment" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>UAS safety typically falls under two categories: (1) Planned Safety and (2) On-site threats. The UAS activity review process includes a review of Planned Safety to ensure that the RPIC is aware of potential risks and has procedures to mitigate risks.</p>
 <p>Not all potential safety considerations may be applicable. Many risks associated with UAS activity can be mitigated by selecting operating locations where a UAS incident or accident would be unlikely to cause an injury.</p>
-<div id="planned-safety" class="section level3">
-<h3><span class="header-section-number">7.1.1</span> Planned Safety</h3>
+<div id="planned-safety" class="section level3 hasAnchor" number="7.1.1">
+<h3><span class="header-section-number">7.1.1</span> Planned Safety<a href="ch-flight-safety.html#planned-safety" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The RPIC must plan for the safety of the UAS activity by evaluating to the best of his or her ability, the following potential impacts:</p>
 <ul>
 <li>Type of airspace, restricted flight areas</li>
@@ -228,15 +252,15 @@
 <li>Crew management (including roles and responsibilities)</li>
 <li>Procedures to manage crowds or spectators</li>
 </ul>
-<div class="figure" style="text-align: center"><span id="fig:MP-UCSB"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:MP-UCSB"></span>
 <img src="images/Mission_Planning_UCSB.jpg" alt="Mapping out helpers at UCSB" width="100%" />
 <p class="caption">
 Figure 7.1: Mapping out helpers at UCSB
 </p>
 </div>
 </div>
-<div id="on-site-threats" class="section level3">
-<h3><span class="header-section-number">7.1.2</span> On-site Threats</h3>
+<div id="on-site-threats" class="section level3 hasAnchor" number="7.1.2">
+<h3><span class="header-section-number">7.1.2</span> On-site Threats<a href="ch-flight-safety.html#on-site-threats" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>There are many on-site threats to UAS safety that are not always feasible to be reviewed. It is the responsibility of the RPIC to ensure a safe operating environment, from ensuring the unmanned aircraft is suitable for operation to managing intrusions and weather conditions.</p>
 <p><strong>Example On-site Threats</strong></p>
 <ul>
@@ -253,12 +277,12 @@ Figure 7.1: Mapping out helpers at UCSB
 <li><p>Unplanned spectators or crowds</p></li>
 </ul>
 </div>
-<div id="weather" class="section level3">
-<h3><span class="header-section-number">7.1.3</span> Weather</h3>
+<div id="weather" class="section level3 hasAnchor" number="7.1.3">
+<h3><span class="header-section-number">7.1.3</span> Weather<a href="ch-flight-safety.html#weather" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Local weather must be checked prior to UAS activity to ensure wind speeds, precipitation, temperature or other environmental factors will not adversely affect the safety of the UAS activity. This information should then be re-checked during the on-site survey, prior to take-off. No UAS activity shall occur when weather conditions exceed VFR Weather minimums or the listed aircraft tolerance per the manufacturer’s manual.</p>
 </div>
-<div id="site-permissions" class="section level3">
-<h3><span class="header-section-number">7.1.4</span> Site Permissions</h3>
+<div id="site-permissions" class="section level3 hasAnchor" number="7.1.4">
+<h3><span class="header-section-number">7.1.4</span> Site Permissions<a href="ch-flight-safety.html#site-permissions" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>All UAS activity at a University Location must have prior authorization, accomplished via the UAS Activity Request Form. If additional authorization is required by a managing entity (campus recreation, Natural Reserve Site Director), it shall be obtained in coordination with the Designated Local Authority or Systemwide Designated UAS Authority. At off-site locations, site permissions shall be obtained as necessary. The UC shall maintain good neighbor relations with all public entities and shall abide by the processes or restrictions as directed.</p>
 <p><strong>Common Public Land</strong></p>
 <ul>
@@ -269,8 +293,8 @@ Figure 7.1: Mapping out helpers at UCSB
 <p>For UAS activity, the RPIC shall obtain site permission to the best of his or her ability for all property the UAS activity will occur above.</p>
 </div>
 </div>
-<div id="safety-guidelines" class="section level2">
-<h2><span class="header-section-number">7.2</span> Safety Guidelines</h2>
+<div id="safety-guidelines" class="section level2 hasAnchor" number="7.2">
+<h2><span class="header-section-number">7.2</span> Safety Guidelines<a href="ch-flight-safety.html#safety-guidelines" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
 <li>UAS activity should always establish a buffer or safe-zone between the unmanned aircraft and any non-participating persons or sensitive locations.<br />
 </li>
@@ -287,8 +311,8 @@ Figure 7.1: Mapping out helpers at UCSB
 <li>When operating in fenced areas, operate exclusively within the fenced areas unless there is sufficient visibility on the other side to ensure safety to non-participants.</li>
 <li>Flying above buildings and structures minimizes risk to pedestrians, but it is recommended to contact the facility manager to explain the proposed operation and potential for risk.</li>
 </ul>
-<div class="figure" style="text-align: center"><span id="fig:UASvests"></span>
-<img src="images/UAS_vest.jpg" alt="UAS Operators with High Visibility Reflective Vests" width="60%" />
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:UASvests"></span>
+<img src="images/UAS_Vest.jpg" alt="UAS Operators with High Visibility Reflective Vests" width="60%" />
 <p class="caption">
 Figure 7.2: UAS Operators with High Visibility Reflective Vests
 </p>
@@ -306,7 +330,6 @@ Figure 7.2: UAS Operators with High Visibility Reflective Vests
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -325,6 +348,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -345,6 +369,10 @@ gitbook.start({
 "text": null
 },
 "download": ["Advanced_Users.pdf", "Advanced_Users.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection",
 "download": ["pdf", "epub", "mobi"],
@@ -361,7 +389,7 @@ gitbook.start({
     var script = document.createElement("script");
     script.type = "text/javascript";
     var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
     if (location.protocol !== "file:")
       if (/^https?:/.test(src))
         src = src.replace(/^https?:/, '');
